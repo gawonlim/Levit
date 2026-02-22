@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.key
+backend/GPT-API-Key.txt
+**/GPT-API-Key.txt
+
+# Build outputs
+frontend/dist/
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Optional: large data (uncomment if you don't want to track)
+# data/*.csv
+# data/cleaning_process/

@@ -1,0 +1,18 @@
+{
+  "name": "levit-backend",
+  "version": "1.0.0",
+  "description": "Backend for multi-stakeholder furniture decision helper",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.2",
+    "express": "^4.18.2",
+    "faiss-node": "^0.5.1",
+    "openai": "^4.20.1"
+  }
+}

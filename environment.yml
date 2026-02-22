@@ -1,0 +1,11 @@
+# Conda environment for Levit project
+# - Python + pandas for data/cleaning.py
+# - Node.js for backend and frontend (npm)
+name: levit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - nodejs=20
